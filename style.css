@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+
+
+/* Container to center content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+   
+}
+
+/* Header with background image */
+header {
+    background-image: url('https://htmlcolors.com/brand-image/starbucks.png'); /* Path to your header background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section background images */
+section {
+    padding: 60px 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* White text for better readability on dark backgrounds */
+}
+
+/* Specific background images for sections */
+#story {
+    background-image: url('https://color-hex.org/colors/1e3932.png'); /* Path to your story background image */
+}
+
+#menu {
+    background-image: url('https://wallpapers.com/images/high/starbucks-logo-on-wood-9wrv20pqw9kxdhu5.webp');
+    width:100%;
+    height: 100%;
+     /* Path to your menu background image */
+}
+
+#locations {
+    background-image: url('https://color-hex.org/colors/1e3932.png'); 
+    /* Path to your locations background image */
+
+}
+
+#contact {
+    background-image: url('https://wallpapers.com/images/high/cup-of-coffee-pictures-pzy0kias2l6vg3lh.webp'); /* Path to your contact background image */
+}
+
+/* Text and styling */
+section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.menu-item {
+    margin: 20px 0;
+}
+
+footer {
+    /* background-image: url('https://blackscreen.space/images/pro/black-screen_39.png');  */
+    /* Path to your footer background image */
+    background-size: cover;
+    background-position: center;
+    color: #141212;
+    text-align: center;
+    padding: 15px 0;
+    background-color: rgba(0, 0, 0, 0.171);
+}
